@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout with Flexbox & Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar using Flexbox -->
+    <nav class="navbar">
+        <div class="logo">FlexGrid</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">☰</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Modern Responsive Design</h1>
+            <p>Using Flexbox and CSS Grid for beautiful layouts</p>
+        </div>
+    </section>
+
+    <!-- Main Content using CSS Grid -->
+    <section class="main-content" id="services">
+        <div class="card">
+            <h2>CSS Flexbox</h2>
+            <p>Flexbox is a one-dimensional layout method for arranging items in rows or columns. Items flex to fill additional space and shrink to fit into smaller spaces.</p>
+        </div>
+        <div class="card">
+            <h2>CSS Grid</h2>
+            <p>CSS Grid Layout is a two-dimensional layout system for the web. It lets you layout items in rows and columns, and has many features that make building complex layouts straightforward.</p>
+        </div>
+        <div class="card">
+            <h2>Media Queries</h2>
+            <p>Media queries allow you to apply CSS styles depending on a device's general type or specific characteristics and parameters like screen resolution or browser viewport width.</p>
+        </div>
+    </section>
+
+    <!-- Features Section using Flexbox -->
+    <section class="features" id="about">
+        <h2>Key Features</h2>
+        <div class="feature-container">
+            <div class="feature-box">
+                <h3>Responsive Design</h3>
+                <p>Layouts that automatically adjust and adapt to any device screen size, orientation, or resolution.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Flexible Components</h3>
+                <p>UI elements that resize and reposition themselves automatically based on available space.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Grid System</h3>
+                <p>A powerful grid-based layout system that helps align content and create complex structures with ease.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 FlexGrid Demo | Responsive Web Design</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
